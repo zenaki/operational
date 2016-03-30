@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/Google_Maps_API">
+        <file>gmap.html</file>
+    </qresource>
+</RCC>
