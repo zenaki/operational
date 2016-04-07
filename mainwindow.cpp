@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     this->writePluginConfg();
+    cryp code; code.encryp(QDir::currentPath() + "/plugin.cfg");
     this->ui->webView->settings()->setAttribute(QWebSettings::JavascriptEnabled, true);
     this->setMap();
 }

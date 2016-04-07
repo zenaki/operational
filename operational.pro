@@ -14,10 +14,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    add_marker.cpp
+        add_marker.cpp \
+        cryp.cpp
 
 HEADERS  += mainwindow.h \
-    add_marker.h
+        add_marker.h \
+        cryp.h
 
 FORMS    += mainwindow.ui \
     add_marker.ui

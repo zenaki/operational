@@ -8,6 +8,8 @@
 #include <QSettings>
 
 #include <add_marker.h>
+#include <cryp.h>
+class cryp;
 
 #define CODEC "UTF-8"
 
